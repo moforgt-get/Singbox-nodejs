@@ -3,7 +3,7 @@ set -e
 
 # ================== 端口设置 ==================
 export TUIC_PORT=${TUIC_PORT:-""}
-export HY2_PORT=${HY2_PORT:-""}
+export HY2_PORT=${HY2_PORT:-"2376"}
 export REALITY_PORT=${REALITY_PORT:-""}
 
 # ================== 强制切换到脚本所在目录 ==================
